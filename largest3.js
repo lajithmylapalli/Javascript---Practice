@@ -4,7 +4,7 @@ const num = (x,y,z)=>{
 
     }
     else if ((y>x) && (y>z)){
-        console.log(`${x} is the largest number`);
+        console.log(`${y} is the largest number`);
         }
         else{
             console.log(`${z} is the largest number`);
