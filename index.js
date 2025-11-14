@@ -1,2 +1,5 @@
-let name = prompt("Enter your name : ")
-console.log("you entered : ",name);
+let username;
+document.getElementById("sub").onclick=function(){
+    username=document.getElementById("name").value;
+    console.log(username);
+};
