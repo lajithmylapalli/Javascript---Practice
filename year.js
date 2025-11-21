@@ -1,0 +1,5 @@
+const da=()=>{
+    const date = new Date();
+    console.log(date);
+    console.log(date.getFullYear());
+};da();
